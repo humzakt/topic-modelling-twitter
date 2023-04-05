@@ -14,7 +14,9 @@ To run the script, you will need to install the following libraries:
 
 You can install these libraries using `pip` by running the following command:
 
-`pip install snscrape pandas nltk gensim wordcloud`
+```
+pip install snscrape pandas nltk gensim wordcloud
+```
 
 
 ## Usage
@@ -28,7 +30,9 @@ To run the script, you will need to provide the following inputs:
 
 You can run the script by running the `topic_model_from_user()` function with the required inputs:
 
-`topic_model_from_user(username, num_tweets, num_topics, passes)`
+```
+topic_model_from_user(username, num_tweets, num_topics, passes)
+```
 
 
 The script will scrape the specified number of tweets from the user's timeline, preprocess the tweets, generate the LDA model, calculate the coherence score, and visualize the most frequent words in the topics using word clouds.
