@@ -37,6 +37,12 @@ The script will scrape the specified number of tweets from the user's timeline, 
 
 The main limitation of this script is that it relies on the `snscrape` library, which is not an officially supported Twitter API and may not always work as expected. Additionally, the accuracy of the topic modeling and word clouds may be affected by the quality of the scraped tweets and the parameters used for the LDA model.
 
+## Reference
+
+```
+E. S. Negara, D. Triadi and R. Andryani, "Topic Modelling Twitter Data with Latent Dirichlet Allocation Method," 2019 International Conference on Electrical Engineering and Computer Science (ICECOS), Batam, Indonesia, 2019, pp. 386-390, doi: 10.1109/ICECOS47637.2019.8984523.
+```
+
 ## License
 
 This script is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
